@@ -1,0 +1,6 @@
+@WebApiDofus_HostAddress = http://localhost:5062
+
+GET {{WebApiDofus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
