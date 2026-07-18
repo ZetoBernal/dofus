@@ -1,0 +1,201 @@
+{
+  "icono": "/images/guides/domakuro-icon.png",
+  "banner": "/images/guides/domakuro-banner.jpg",
+  "misiones": [
+    {
+      "mision": "Le réveil de Pandala",
+      "zona": "Carrière d'Astrub",
+      "coordenadas": "[12,-21]",
+      "pnj": {
+        "nombre": "Moktwa",
+        "img": "/images/pnj/Moktwa.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Ortie",
+          "cantidad": "×50",
+          "img": "/images/recursos/36642-128.png"
+        },
+        {
+          "nombre": "Laine de Boufton Noir",
+          "cantidad": "×5",
+          "img": "/images/recursos/57210-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "À la croisée des mondes",
+      "zona": "Village de Pandala",
+      "coordenadas": "[20,-29]",
+      "pnj": {
+        "nombre": "Hintikou",
+        "img": "/images/pnj/Hintikou.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bois de Bambou",
+          "cantidad": "×20",
+          "img": "/images/recursos/38673-128.png"
+        },
+        {
+          "nombre": "Artefact Pandawushu Roc",
+          "cantidad": "×2",
+          "img": "/images/recursos/164662-128.png"
+        },
+        {
+          "nombre": "Artefact Pandawushu Eau",
+          "cantidad": "×2",
+          "img": "/images/recursos/164659-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Sous le bois de sa colère",
+      "zona": "Village de Pandala",
+      "coordenadas": "[22,-29]",
+      "pnj": {
+        "nombre": "daimya",
+        "img": "/images/pnj/daimya.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Bambusaie De Damadrya",
+        "link": "https://duffus.fr/donjon/bambusaie-de-damadrya",
+        "img": "/images/donjones/damadrya.png"
+      }
+    },
+    {
+      "mision": "Au nom de l'Art",
+      "zona": "Village de Pandala",
+      "coordenadas": "[22,-29]",
+      "pnj": {
+        "nombre": "daimya",
+        "img": "/images/pnj/daimya.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×7000",
+          "img": "/images/recursos/kamas.png"
+        },
+        {
+          "nombre": "Poils magiques de Tanuki",
+          "cantidad": "×3",
+          "img": "/images/recursos/164678-128.png"
+        },
+        {
+          "nombre": "Huile de Riz",
+          "cantidad": "×1",
+          "img": "/images/recursos/60069-128.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Atelier Du Tanukoui San",
+        "link": "https://duffus.fr/donjon/atelier-du-tanukoui-san",
+        "img": "/images/donjones/tanukoui.png"
+      }
+    },
+    {
+      "mision": "La jetée des enfants perdus",
+      "zona": "Village de Pandala",
+      "coordenadas": "[22,-29]",
+      "pnj": {
+        "nombre": "daimya",
+        "img": "/images/pnj/daimya.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×15",
+          "img": "/images/recursos/kamas.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Vallee De La Dame Des Eaux",
+        "link": "https://duffus.fr/donjon/vallee-de-la-dame-des-eaux",
+        "img": "/images/donjones/nagate.png"
+      }
+    },
+    {
+      "mision": "Le festival de la lanterne",
+      "zona": "Village de Pandala",
+      "coordenadas": "[22,-29]",
+      "pnj": {
+        "nombre": "daimya",
+        "img": "/images/pnj/daimya.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Graine de Sésame",
+          "cantidad": "×100",
+          "img": "/images/recursos/58003-128.png"
+        },
+        {
+          "nombre": "Riz",
+          "cantidad": "×100",
+          "img": "/images/recursos/34010-128.png"
+        },
+        {
+          "nombre": "Haricot",
+          "cantidad": "×50",
+          "img": "/images/recursos/58471-128.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Fabrique De Foux Dartificem",
+        "link": "https://duffus.fr/donjon/fabrique-de-foux-dartificem",
+        "img": "/images/donjones/founo.png"
+      }
+    },
+    {
+      "mision": "L'équilibre des forces",
+      "zona": "Village de Pandala",
+      "coordenadas": "[22,-29]",
+      "pnj": {
+        "nombre": "daimya",
+        "img": "/images/pnj/daimya.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bananagrume",
+          "cantidad": "×8",
+          "img": "/images/recursos/46001-128.png"
+        },
+        {
+          "nombre": "Fraise",
+          "cantidad": "×3",
+          "img": "/images/recursos/46053-128.png"
+        },
+        {
+          "nombre": "Viscères de Scarafeuille",
+          "cantidad": "×3",
+          "img": "/images/recursos/15445-128.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Dojo Du Vent",
+        "link": "https://duffus.fr/donjon/dojo-du-vent",
+        "img": "/images/donjones/hanshi.png"
+      }
+    },
+    {
+      "mision": "Sang d'encre",
+      "zona": "Village de Pandala",
+      "coordenadas": "[22,-29]",
+      "pnj": {
+        "nombre": "daimya",
+        "img": "/images/pnj/daimya.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Pandazahi",
+          "cantidad": "×1",
+          "img": "/images/recursos/79179-128.png"
+        }
+      ],
+      "donjon": null
+    }
+  ]
+}

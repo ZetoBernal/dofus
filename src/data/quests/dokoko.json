@@ -1,0 +1,94 @@
+{
+  "icono": "/images/guides/dokoko-icon.png",
+  "banner": "/images/guides/dokoko-banner.jpg",
+  "misiones": [
+    {
+      "mision": "Partir un jour sans retour",
+      "zona": "Clairière de Brouce Boulgoure",
+      "coordenadas": "[11,10]",
+      "pnj": {
+        "nombre": "Touriste",
+        "img": "/images/pnj/Touriste.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×1000",
+          "img": "/images/recursos/kamas.png"
+        },
+        {
+          "nombre": "Ailes en bois",
+          "cantidad": "×1",
+          "img": "/images/recursos/17022-128.png"
+        },
+        {
+          "nombre": "Casque",
+          "cantidad": "×1",
+          "img": "/images/recursos/16025-128.png"
+        }
+      ],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/partir-un-jour-sans-retour.html"
+    },
+    {
+      "mision": "Un parfum de vacances",
+      "zona": "Plage de la Tortue",
+      "coordenadas": "[34,12]",
+      "pnj": {
+        "nombre": "EmployéeTouriste",
+        "img": "/images/pnj/EmployeeTouriste.png"
+      },
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/un-parfum-de-vacances.html"
+    },
+    {
+      "mision": "Un indigeste chez les indigènes",
+      "zona": "Plage de la Tortue",
+      "coordenadas": "[33,12]",
+      "pnj": {
+        "nombre": "Gropinson",
+        "img": "/images/pnj/Gropinson.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Village Kanniboul",
+        "link": "https://duffus.fr/donjon/village-kanniboul",
+        "img": "/images/donjones/kanniboul.png"
+      },
+      "link": "https://www.dofuspourlesnoobs.com/un-indigeste-chez-les-indigegravenes.html"
+    },
+    {
+      "mision": "Squelettes et amulette",
+      "zona": "Forêt des Masques",
+      "coordenadas": "[31,9]",
+      "pnj": {
+        "nombre": "Voudou",
+        "img": "/images/pnj/Voudou.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Bateau Du Chouque",
+        "link": "https://duffus.fr/donjon/bateau-du-chouque",
+        "img": "/images/donjones/chouque.png"
+      },
+      "link": "https://www.dofuspourlesnoobs.com/squelettes-et-amulettes.html"
+    },
+    {
+      "mision": "Rendez-vous avec la lune",
+      "zona": "Forêt des Masques",
+      "coordenadas": "[31,9]",
+      "pnj": {
+        "nombre": "Voudou",
+        "img": "/images/pnj/Voudou.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Arbre De Moon",
+        "link": "https://duffus.fr/donjon/arbre-de-moon",
+        "img": "/images/donjones/moon.png"
+      },
+      "link": "https://www.dofuspourlesnoobs.com/rendez-vous-avec-la-lune.html"
+    }
+  ]
+}

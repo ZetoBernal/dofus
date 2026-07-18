@@ -1,0 +1,221 @@
+{
+  "icono": "/images/guides/dofoozbz-icon.png",
+  "banner": "/images/guides/dofoozbz-banner.png",
+  "misiones": [
+    {
+      "mision": "Voyage, voyage",
+      "zona": "Routes Rocailleuses",
+      "coordenadas": "[-22,-24]",
+      "pnj": {
+        "nombre": "Zlatzom",
+        "img": "/images/pnj/Zlatzom.png"
+      },
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/voyage-voyage.html"
+    },
+    {
+      "mision": "Ça barde là-haut",
+      "zona": "Routes Rocailleuses",
+      "coordenadas": "[-22,-24]",
+      "pnj": {
+        "nombre": "Gladis",
+        "img": "/images/pnj/Gladis.png"
+      },
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/ca-barde-la-haut.html"
+    },
+    {
+      "mision": "Problème de taille",
+      "zona": "Osavora",
+      "coordenadas": "[0,18]",
+      "pnj": null,
+      "recursos": [
+        {
+          "nombre": "Orichor",
+          "cantidad": "×3",
+          "img": "/images/recursos/15883-128.png"
+        }
+      ],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/un-probleme-de-taille.html"
+    },
+    {
+      "mision": "Le vol des bourdons",
+      "zona": "Osavora",
+      "coordenadas": "[0,18]",
+      "pnj": null,
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/le-vol-des-bourdons.html"
+    },
+    {
+      "mision": "Des petites bêtes qui font bzzzbz",
+      "zona": "Osavora",
+      "coordenadas": "[23,27]",
+      "pnj": {
+        "nombre": "quadrabz",
+        "img": "/images/pnj/quadrabz.png"
+      },
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/des-petites-betes-qui-font-bzzzbz.html"
+    },
+    {
+      "mision": "Têtes de ponte",
+      "zona": "Osavora",
+      "coordenadas": "[23,27]",
+      "pnj": {
+        "nombre": "quadrabz",
+        "img": "/images/pnj/quadrabz.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Clef du Poste de contrôle du Supervizoeuf",
+          "cantidad": "×1",
+          "img": "/images/recursos/resources.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Poste De Controle Du Supervizoeuf",
+        "link": "https://duffus.fr/donjon/poste-de-controle-du-supervizoeuf",
+        "img": "/images/donjones/super.png"
+      },
+      "link": "https://www.dofuspourlesnoobs.com/tetes-de-ponte.html"
+    },
+    {
+      "mision": "Dérive insectaire",
+      "zona": "Osavora",
+      "coordenadas": "[23,27]",
+      "pnj": {
+        "nombre": "krosmo",
+        "img": "/images/pnj/krosmo.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Voile Eidolonique de Balebz",
+          "cantidad": "×1",
+          "img": "/images/recursos/94062-128.png"
+        }
+      ],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/derive-insectaire.html"
+    },
+    {
+      "mision": "La proie des vérités",
+      "zona": "Osavora",
+      "coordenadas": "[2,16]",
+      "pnj": {
+        "nombre": "pretresse",
+        "img": "/images/pnj/pretresse.png"
+      },
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/la-proie-des-verites.html"
+    },
+    {
+      "mision": "Quand on la cherche, on finit par tomber dessus",
+      "zona": "Osavora",
+      "coordenadas": "[0,18]",
+      "pnj": null,
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/quand-on-la-cherche-on-finit-par-tomber-dessus.html"
+    },
+    {
+      "mision": "Devoir de réserve",
+      "zona": "Osavora",
+      "coordenadas": "[5,11]",
+      "pnj": null,
+      "recursos": [
+        {
+          "nombre": "Clef du Breuil du Vénérable",
+          "cantidad": "×1",
+          "img": "/images/recursos/84796-128.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Breuil Du Venerable",
+        "link": "https://duffus.fr/donjon/breuil-du-venerable",
+        "img": "/images/donjones/breuil.png"
+      },
+      "link": "https://www.dofuspourlesnoobs.com/devoir-de-reserve.html"
+    },
+    {
+      "mision": "Trois cœurs, un roi",
+      "zona": "Osavora",
+      "coordenadas": "[2,16]",
+      "pnj": {
+        "nombre": "pretresse",
+        "img": "/images/pnj/pretresse.png"
+      },
+      "recursos": [],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/trois-coeurs-un-roi.html"
+    },
+    {
+      "mision": "Un hôte de marque",
+      "zona": "Osavora",
+      "coordenadas": "[10,5]",
+      "pnj": {
+        "nombre": "garde_village",
+        "img": "/images/pnj/garde_village.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Éklâme suprême",
+          "cantidad": "×10",
+          "img": "/images/recursos/74071-128.png"
+        },
+        {
+          "nombre": "Os Divinatoire de Voracle",
+          "cantidad": "×3",
+          "img": "/images/recursos/47887-128.png"
+        },
+        {
+          "nombre": "Épices",
+          "cantidad": "×3",
+          "img": "/images/recursos/15378-128.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Autel De La Dechireuse",
+        "link": "https://duffus.fr/donjon/autel-de-la-dechireuse",
+        "img": "/images/donjones/dechireuse.png"
+      },
+      "link": "https://www.dofuspourlesnoobs.com/un-hote-de-marque.html"
+    },
+    {
+      "mision": "L'union sacrée",
+      "zona": "Osavora",
+      "coordenadas": "[11,3]",
+      "pnj": null,
+      "recursos": [
+        {
+          "nombre": "Squame du Graogarm",
+          "cantidad": "×3",
+          "img": "/images/recursos/59680-128.png"
+        }
+      ],
+      "donjon": null,
+      "link": "https://www.dofuspourlesnoobs.com/l-union-sacree.html"
+    },
+    {
+      "mision": "Destructeur de mondes",
+      "zona": "Osavora",
+      "coordenadas": "[2,16]",
+      "pnj": {
+        "nombre": "pretresse",
+        "img": "/images/pnj/pretresse.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Temple De Gargandyas",
+        "link": "https://duffus.fr/donjon/temple-de-gargandyas",
+        "img": "/images/donjones/gargandyas.png"
+      },
+      "link": "https://www.dofuspourlesnoobs.com/destructeur-de-mondes.html"
+    }
+  ]
+}

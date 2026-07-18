@@ -1,0 +1,573 @@
+{
+  "icono": "/images/guides/dofus-abyssal-icon.png",
+  "banner": "/images/guides/dofus-abyssal-banner.png",
+  "misiones": [
+    {
+      "mision": "L'odeur devant le seuil",
+      "zona": "Plateau de R'lyugluglu",
+      "coordenadas": "[26,26]",
+      "pnj": {
+        "nombre": "Tawil",
+        "img": "/images/pnj/Tawil.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Salikrone",
+          "cantidad": "×3",
+          "img": "/images/recursos/36653-128.png"
+        },
+        {
+          "nombre": "Viande Goûtue",
+          "cantidad": "×3",
+          "img": "/images/recursos/63487-128.png"
+        },
+        {
+          "nombre": "Bois d'Aquajou",
+          "cantidad": "×3",
+          "img": "/images/recursos/38684-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Droit de cuissage",
+      "zona": "Sufokia",
+      "coordenadas": "[21,24]",
+      "pnj": {
+        "nombre": "Saite",
+        "img": "/images/pnj/Saite.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Aux grands mots les grands remèdes",
+      "zona": "Plateau de R'lyugluglu",
+      "coordenadas": "[25,28]",
+      "pnj": {
+        "nombre": "Wich",
+        "img": "/images/pnj/Wich.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Nos chairs voisines",
+      "zona": "Ville submergée",
+      "coordenadas": "[22,28]",
+      "pnj": {
+        "nombre": "Ancrenage",
+        "img": "/images/pnj/Ancrenage.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le vieux gob et la mer",
+      "zona": "Ancienne Sufokia",
+      "coordenadas": "[22,30]",
+      "pnj": {
+        "nombre": "Santiagob",
+        "img": "/images/pnj/Santiagob.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Sceau des fondateurs",
+          "cantidad": "×1",
+          "img": "/images/recursos/181001-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "La pêche aux infos",
+      "zona": "Sufokia",
+      "coordenadas": "[23,24]",
+      "pnj": {
+        "nombre": "Perkine",
+        "img": "/images/pnj/Perkine.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Reine de beauté",
+      "zona": "Domaine des Trithons",
+      "coordenadas": "[21,27]",
+      "pnj": {
+        "nombre": "Rocafé",
+        "img": "/images/pnj/Rocafe.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Palais De Dantinea",
+        "link": "https://duffus.fr/donjon/palais-de-dantinea",
+        "img": "/images/donjones/dantinea.png"
+      }
+    },
+    {
+      "mision": "Rançon nage",
+      "zona": "Sufokia",
+      "coordenadas": "[23,24]",
+      "pnj": {
+        "nombre": "Viktorie",
+        "img": "/images/pnj/Viktorie.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Stratégie en Trithon Réel",
+      "zona": "Domaine des Trithons",
+      "coordenadas": "[21,27]",
+      "pnj": {
+        "nombre": "Trenne",
+        "img": "/images/pnj/Trenne.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Sur fond de crise",
+      "zona": "Domaine des Trithons",
+      "coordenadas": "[21,27]",
+      "pnj": {
+        "nombre": "Trenne",
+        "img": "/images/pnj/Trenne.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Accélérateur de propulsion",
+          "cantidad": "×1",
+          "img": "/images/recursos/181003-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Relevez les niveaux",
+      "zona": "Sufokia",
+      "coordenadas": "[22,19]",
+      "pnj": {
+        "nombre": "Chollion",
+        "img": "/images/pnj/Chollion.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "L'ivresse des profondeurs",
+      "zona": "Sufokia",
+      "coordenadas": "[22,22]",
+      "pnj": {
+        "nombre": "Grog",
+        "img": "/images/pnj/Grog.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Les Mercemers sont bien outillés",
+      "zona": "Sufokia",
+      "coordenadas": "[22,19]",
+      "pnj": {
+        "nombre": "Roukerol",
+        "img": "/images/pnj/Roukerol.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Pêche aux krabouilleurs",
+      "zona": "Sufokia",
+      "coordenadas": "[22,19]",
+      "pnj": {
+        "nombre": "Guiffel",
+        "img": "/images/pnj/Guiffel.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "À bas Kralab Rah",
+      "zona": "Base Abyssale",
+      "coordenadas": "[23,19]",
+      "pnj": {
+        "nombre": "Kralab",
+        "img": "/images/pnj/Kralab.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "KO pour Bosko Tho",
+      "zona": "Base Abyssale",
+      "coordenadas": "[22,18]",
+      "pnj": {
+        "nombre": "Bosko",
+        "img": "/images/pnj/Bosko.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Prise de notes",
+      "zona": "Base Abyssale",
+      "coordenadas": "[21,18]",
+      "pnj": {
+        "nombre": "Dolith",
+        "img": "/images/pnj/Dolith.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Aquadome De Merkator",
+        "link": "https://duffus.fr/donjon/aquadome-de-merkator",
+        "img": "/images/donjones/merkator.png"
+      }
+    },
+    {
+      "mision": "Risquer un œil",
+      "zona": "Domaine des Trithons",
+      "coordenadas": "[21,27]",
+      "pnj": {
+        "nombre": "Askina",
+        "img": "/images/pnj/Askina.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Pépite",
+          "cantidad": "×200",
+          "img": "/images/recursos/50718-128.png"
+        },
+        {
+          "nombre": "Peau de Rouquette",
+          "cantidad": "×10",
+          "img": "/images/recursos/59042-128.png"
+        },
+        {
+          "nombre": "Kobalite",
+          "cantidad": "×5",
+          "img": "/images/recursos/40704-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "La gueule de l'enfer",
+      "zona": "Domaine des Trithons",
+      "coordenadas": "[21,27]",
+      "pnj": {
+        "nombre": "Trenne",
+        "img": "/images/pnj/Trenne.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Saucisse Fumée",
+          "cantidad": "×5",
+          "img": "/images/recursos/69820-128.png"
+        },
+        {
+          "nombre": "Lest anti-tourbillon",
+          "cantidad": "×1",
+          "img": "/images/recursos/181004-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Il y a de l'électricité dans l'eau",
+      "zona": "Ville submergée",
+      "coordenadas": "[22,28]",
+      "pnj": {
+        "nombre": "Prosper",
+        "img": "/images/pnj/Prosper.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Topo le petit robot",
+      "zona": "Ancienne Sufokia",
+      "coordenadas": "[22,30]",
+      "pnj": {
+        "nombre": "Ancrenage",
+        "img": "/images/pnj/Ancrenage.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Piège de crystal",
+      "zona": "Ville submergée",
+      "coordenadas": "[22,28]",
+      "pnj": {
+        "nombre": "Prosper",
+        "img": "/images/pnj/Prosper.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Vaisseau Du Capitaine Meno",
+        "link": "https://duffus.fr/donjon/vaisseau-du-capitaine-meno",
+        "img": "/images/donjones/meno.png"
+      }
+    },
+    {
+      "mision": "Son nom est Personne",
+      "zona": "Vaisseau du Capitaine Men",
+      "coordenadas": "[24,27]",
+      "pnj": {
+        "nombre": "Meno",
+        "img": "/images/pnj/Meno.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La clef de l'énigme",
+      "zona": "Ville submergée",
+      "coordenadas": "[22,28]",
+      "pnj": {
+        "nombre": "Prosper",
+        "img": "/images/pnj/Prosper.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Volant hydraulique",
+          "cantidad": "×1",
+          "img": "/images/recursos/181002-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Une porte vers le passé",
+      "zona": "Ancienne Sufokia",
+      "coordenadas": "[25,28]",
+      "pnj": {
+        "nombre": "Prosper",
+        "img": "/images/pnj/Prosper.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Celle qui glougloutait dans les ténèbres",
+      "zona": null,
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "détrempé",
+        "img": "/images/pnj/detrempe.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Attrape-peur",
+          "cantidad": "×1",
+          "img": "/images/recursos/181005-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "L'affaire Pollie Perkine",
+      "zona": "Sufokia",
+      "coordenadas": "[23,24]",
+      "pnj": {
+        "nombre": "Skaille",
+        "img": "/images/pnj/Skaille.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Trop Pollie pour être honnête",
+      "zona": "Sufokia",
+      "coordenadas": "[23,24]",
+      "pnj": {
+        "nombre": "Skaille",
+        "img": "/images/pnj/Skaille.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Quand les astres seront propices",
+      "zona": "Sufokia",
+      "coordenadas": "[22,30]",
+      "pnj": {
+        "nombre": "ViktorieReine",
+        "img": "/images/pnj/ViktorieReine.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Statuette de Snedon",
+          "cantidad": "×1",
+          "img": "/images/recursos/181006-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Il suffira d'un signe",
+      "zona": "Sufokia",
+      "coordenadas": "[23,24]",
+      "pnj": {
+        "nombre": "Nomis",
+        "img": "/images/pnj/Nomis.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Tentacule de Grofond",
+          "cantidad": "×5",
+          "img": "/images/recursos/103729-128.png"
+        },
+        {
+          "nombre": "Tentacule de N'Yalg",
+          "cantidad": "×5",
+          "img": "/images/recursos/103728-128.png"
+        },
+        {
+          "nombre": "Patte de Li-Fo",
+          "cantidad": "×5",
+          "img": "/images/recursos/103727-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "De mal en impie",
+      "zona": "Sufokia",
+      "coordenadas": "[23,24]",
+      "pnj": {
+        "nombre": "Viktorie",
+        "img": "/images/pnj/Viktorie.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Temple De Koutoulou",
+        "link": "https://duffus.fr/donjon/temple-de-koutoulou",
+        "img": "/images/donjones/koutoulou.png"
+      }
+    },
+    {
+      "mision": "Le héros de Sufokia",
+      "zona": "Sufokia",
+      "coordenadas": "[23,24]",
+      "pnj": {
+        "nombre": "Viktorie",
+        "img": "/images/pnj/Viktorie.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Les sept Mercemers",
+      "zona": "Sufokia",
+      "coordenadas": "[22,19]",
+      "pnj": {
+        "nombre": "Guiffel",
+        "img": "/images/pnj/Guiffel.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Concurrence déloyale",
+      "zona": "Sufokia",
+      "coordenadas": "[21,22]",
+      "pnj": {
+        "nombre": "Fikante",
+        "img": "/images/pnj/Fikante.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bière du Ripate",
+          "cantidad": "×1",
+          "img": "/images/recursos/37004-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Qui a la plus grosse ?",
+      "zona": "Domaine des Trithons",
+      "coordenadas": "[20,27]",
+      "pnj": {
+        "nombre": "Rardé",
+        "img": "/images/pnj/Rarde.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Mémoires d'un amnésique",
+      "zona": "Plateau de R'lyugluglu",
+      "coordenadas": "[25,27]",
+      "pnj": {
+        "nombre": "Markaris",
+        "img": "/images/pnj/Markaris.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Demain, j'arête",
+      "zona": "Tréfonds des Trithons",
+      "coordenadas": "[19,32]",
+      "pnj": {
+        "nombre": "Markaris",
+        "img": "/images/pnj/Markaris.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "L'effet Paula Rice",
+      "zona": "Fosse de R'lyugluglu",
+      "coordenadas": "[26,30]",
+      "pnj": {
+        "nombre": "Delfion",
+        "img": "/images/pnj/Delfion.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Tentacule de Grofond",
+          "cantidad": "×1",
+          "img": "/images/recursos/103729-128.png"
+        },
+        {
+          "nombre": "Tentacule de N'Yalg",
+          "cantidad": "×1",
+          "img": "/images/recursos/103728-128.png"
+        },
+        {
+          "nombre": "Œil de Shokkoth",
+          "cantidad": "×1",
+          "img": "/images/recursos/109614-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Fhtagn !",
+      "zona": "Abîme de R'lyugluglu",
+      "coordenadas": "[27,34]",
+      "pnj": {
+        "nombre": "Klûtiste",
+        "img": "/images/pnj/Klutiste.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La musique de Rykke Zane",
+      "zona": "Rivage Sufokien",
+      "coordenadas": "[14,22]",
+      "pnj": {
+        "nombre": "Sered",
+        "img": "/images/pnj/Sered.png"
+      },
+      "recursos": [],
+      "donjon": null
+    }
+  ]
+}

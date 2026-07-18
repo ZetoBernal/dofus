@@ -1,0 +1,229 @@
+{
+  "icono": "/images/guides/dofus-des-veilleurs-icon.png",
+  "banner": "/images/guides/dofus-des-veilleurs-banner.jpg",
+  "misiones": [
+    {
+      "mision": "Voyage, voyage",
+      "zona": "Routes Rocailleuses",
+      "coordenadas": "[-22,-24]",
+      "pnj": {
+        "nombre": "Zlatzom",
+        "img": "/images/pnj/Zlatzom.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La porte d'Enutrosor",
+      "zona": "Routes Rocailleuses",
+      "coordenadas": "[-22,-24]",
+      "pnj": {
+        "nombre": "Gladis",
+        "img": "/images/pnj/Gladis.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Orichomania",
+      "zona": "Enutrosor",
+      "coordenadas": "[-1,-1]",
+      "pnj": {
+        "nombre": "Megisthe",
+        "img": "/images/pnj/Megisthe.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La cité de l'indicible mal",
+      "zona": "Routes Rocailleuses",
+      "coordenadas": "[-22,-24]",
+      "pnj": {
+        "nombre": "Gladis",
+        "img": "/images/pnj/Gladis.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Messager clandestin",
+      "zona": "Srambad",
+      "coordenadas": "[5,1]",
+      "pnj": {
+        "nombre": "Franche",
+        "img": "/images/pnj/Franche.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La voix de son maître",
+      "zona": "Srambad",
+      "coordenadas": "[5,2]",
+      "pnj": {
+        "nombre": "Gobdon",
+        "img": "/images/pnj/Gobdon.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Rossignol",
+          "cantidad": "×1",
+          "img": "/images/recursos/24969-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Le maître des zaaps",
+      "zona": "Routes Rocailleuses",
+      "coordenadas": "[-22,-24]",
+      "pnj": {
+        "nombre": "Oneuil",
+        "img": "/images/pnj/Oneuil.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Énergie renouvelable",
+      "zona": "Xélorium",
+      "coordenadas": "[1,6]",
+      "pnj": {
+        "nombre": "zaaps",
+        "img": "/images/pnj/zaaps.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Pixel de Brikablak",
+          "cantidad": "×1",
+          "img": "/images/recursos/15910-128.png"
+        },
+        {
+          "nombre": "Pixel d'Éklatleth",
+          "cantidad": "×1",
+          "img": "/images/recursos/15911-128.png"
+        },
+        {
+          "nombre": "Pixel de Gromorso",
+          "cantidad": "×1",
+          "img": "/images/recursos/15908-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Traitement de choc",
+      "zona": "Xélorium",
+      "coordenadas": "[1,6]",
+      "pnj": {
+        "nombre": "Emiette",
+        "img": "/images/pnj/Emiette.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le disparu de Sufokia",
+      "zona": "Champs de Cania",
+      "coordenadas": "[-25,-36]",
+      "pnj": {
+        "nombre": "Tatine",
+        "img": "/images/pnj/Tatine.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Fabrique De Mallefisk",
+        "link": "https://duffus.fr/donjon/fabrique-de-mallefisk",
+        "img": "/images/donjones/mallefisk.png"
+      }
+    },
+    {
+      "mision": "Rendez-vous avec la mort",
+      "zona": "Routes Rocailleuses",
+      "coordenadas": "[-22,-24]",
+      "pnj": {
+        "nombre": "messager",
+        "img": "/images/pnj/messager.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Secret de fabrication",
+      "zona": "Temple Sram",
+      "coordenadas": "[-4,0]",
+      "pnj": {
+        "nombre": "Gein",
+        "img": "/images/pnj/Gein.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Corne du Boufcoul",
+          "cantidad": "×10",
+          "img": "/images/recursos/47009-128.png"
+        },
+        {
+          "nombre": "Oreille de Rhinoféroce",
+          "cantidad": "×10",
+          "img": "/images/recursos/106638-128.png"
+        },
+        {
+          "nombre": "Orichor",
+          "cantidad": "×1",
+          "img": "/images/recursos/15883-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "S'emparer des commandes",
+      "zona": "Temple Sram",
+      "coordenadas": "[-4,0]",
+      "pnj": {
+        "nombre": "Gein",
+        "img": "/images/pnj/Gein.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Anneau du Bandit",
+          "cantidad": "×1",
+          "img": "/images/recursos/9077-128.png"
+        },
+        {
+          "nombre": "Insigne de Malveilleur",
+          "cantidad": "×1",
+          "img": "/images/recursos/15894-128.png"
+        },
+        {
+          "nombre": "Baguette Rikiki",
+          "cantidad": "×1",
+          "img": "/images/recursos/3086-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "C'est dans la boîte",
+      "zona": "Temple Sram",
+      "coordenadas": "[-4,0]",
+      "pnj": {
+        "nombre": "Gein",
+        "img": "/images/pnj/Gein.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Crise d'identité",
+      "zona": "Temple Sram",
+      "coordenadas": "[-4,0]",
+      "pnj": {
+        "nombre": "Gein",
+        "img": "/images/pnj/Gein.png"
+      },
+      "recursos": [],
+      "donjon": null
+    }
+  ]
+}

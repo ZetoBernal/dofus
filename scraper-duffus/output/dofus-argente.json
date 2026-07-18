@@ -1,0 +1,818 @@
+{
+  "icono": "/images/guides/dofus-argente-icon.png",
+  "banner": "/images/guides/dofus-argente-banner.jpg",
+  "misiones": [
+    {
+      "mision": "L'anneau de tous les dangers",
+      "zona": "Incarnam",
+      "coordenadas": "[-3,-3]",
+      "pnj": {
+        "nombre": "Ganymède",
+        "img": "/images/pnj/Ganymede.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Sous le regard des dieux",
+      "zona": "Incarnam",
+      "coordenadas": "[-3,-3]",
+      "pnj": {
+        "nombre": "Ganymède",
+        "img": "/images/pnj/Ganymede.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Réponses à tout",
+      "zona": "Incarnam",
+      "coordenadas": "[-3,-3]",
+      "pnj": {
+        "nombre": "Ganymède",
+        "img": "/images/pnj/Ganymede.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le village dans les nuages",
+      "zona": "Incarnam",
+      "coordenadas": "[-2,-3]",
+      "pnj": {
+        "nombre": "Lykhen",
+        "img": "/images/pnj/Lykhen.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Mise à l'épreuve",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-4]",
+      "pnj": {
+        "nombre": "001",
+        "img": "/images/pnj/001.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Champs de bataille",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-4]",
+      "pnj": {
+        "nombre": "001",
+        "img": "/images/pnj/001.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Espoirs et tragédies",
+      "zona": "Incarnam",
+      "coordenadas": "[2,-3]",
+      "pnj": {
+        "nombre": "Fécaline",
+        "img": "/images/pnj/Fecaline.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Transport peu commun",
+      "zona": "Incarnam",
+      "coordenadas": "[-1,-3]",
+      "pnj": {
+        "nombre": "Ternette",
+        "img": "/images/pnj/Ternette.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Des vestiges de légende",
+      "zona": "Incarnam",
+      "coordenadas": "[-1,-3]",
+      "pnj": {
+        "nombre": "Ternette",
+        "img": "/images/pnj/Ternette.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Vu du ciel",
+      "zona": "Incarnam",
+      "coordenadas": "[-1,-3]",
+      "pnj": {
+        "nombre": "Ternette",
+        "img": "/images/pnj/Ternette.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Mort au rat !",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-3]",
+      "pnj": {
+        "nombre": "docu",
+        "img": "/images/pnj/docu.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Un peu de pigment",
+      "zona": "Incarnam",
+      "coordenadas": "[3,-5]",
+      "pnj": {
+        "nombre": "Marylork",
+        "img": "/images/pnj/Marylork.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Coups d'épée dans l'eau",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-4]",
+      "pnj": {
+        "nombre": "001",
+        "img": "/images/pnj/001.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Décime-moi des bouftous",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-4]",
+      "pnj": {
+        "nombre": "001",
+        "img": "/images/pnj/001.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Produits naturels",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-3]",
+      "pnj": {
+        "nombre": "Berb",
+        "img": "/images/pnj/Berb.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Ortie",
+          "cantidad": "×4",
+          "img": "/images/recursos/36642-128.png"
+        },
+        {
+          "nombre": "Goujon",
+          "cantidad": "×4",
+          "img": "/images/recursos/41294-128.png"
+        },
+        {
+          "nombre": "Blé",
+          "cantidad": "×4",
+          "img": "/images/recursos/34009-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Le métier des aventuriers",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-3]",
+      "pnj": {
+        "nombre": "Berb",
+        "img": "/images/pnj/Berb.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Viande Intangible",
+          "cantidad": "×1",
+          "img": "/images/recursos/63407-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Chasse aux chapardams",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-4]",
+      "pnj": {
+        "nombre": "001",
+        "img": "/images/pnj/001.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La galette secrète",
+      "zona": "Incarnam",
+      "coordenadas": "[1,-2]",
+      "pnj": {
+        "nombre": "Anta",
+        "img": "/images/pnj/Anta.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Blé",
+          "cantidad": "×10",
+          "img": "/images/recursos/34009-128.png"
+        },
+        {
+          "nombre": "Ortie",
+          "cantidad": "×5",
+          "img": "/images/recursos/36642-128.png"
+        },
+        {
+          "nombre": "Cendres Éternelles",
+          "cantidad": "×4",
+          "img": "/images/recursos/48671-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Leçon d'humilité",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-4]",
+      "pnj": {
+        "nombre": "001",
+        "img": "/images/pnj/001.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La hache et la pioche",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-3]",
+      "pnj": {
+        "nombre": "Berb",
+        "img": "/images/pnj/Berb.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bois de Frêne",
+          "cantidad": "×10",
+          "img": "/images/recursos/38017-128.png"
+        },
+        {
+          "nombre": "Fer",
+          "cantidad": "×10",
+          "img": "/images/recursos/39024-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Boune un jour, boune toujours",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-3]",
+      "pnj": {
+        "nombre": "Berb",
+        "img": "/images/pnj/Berb.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Blé",
+          "cantidad": "×4",
+          "img": "/images/recursos/34009-128.png"
+        },
+        {
+          "nombre": "Goujon",
+          "cantidad": "×4",
+          "img": "/images/recursos/41294-128.png"
+        },
+        {
+          "nombre": "Ortie",
+          "cantidad": "×4",
+          "img": "/images/recursos/36642-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Préparation au combat",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-3]",
+      "pnj": {
+        "nombre": "Berb",
+        "img": "/images/pnj/Berb.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Cendres Éternelles",
+          "cantidad": "×5",
+          "img": "/images/recursos/48671-128.png"
+        },
+        {
+          "nombre": "Viande Intangible",
+          "cantidad": "×4",
+          "img": "/images/recursos/63407-128.png"
+        },
+        {
+          "nombre": "Relique d'Incarnam",
+          "cantidad": "×3",
+          "img": "/images/recursos/164068-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Des chafers qui marchent",
+      "zona": "Incarnam",
+      "coordenadas": "[0,-4]",
+      "pnj": {
+        "nombre": "001",
+        "img": "/images/pnj/001.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Dans la gueule du Milimilou",
+      "zona": "Incarnam",
+      "coordenadas": "[2,-3]",
+      "pnj": {
+        "nombre": "Fécaline",
+        "img": "/images/pnj/Fecaline.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Cryptologie",
+      "zona": "Incarnam",
+      "coordenadas": "[5,-1]",
+      "pnj": {
+        "nombre": "klasmor",
+        "img": "/images/pnj/klasmor.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Crypte De Kardorim",
+        "link": "https://duffus.fr/donjon/crypte-de-kardorim",
+        "img": "/images/donjones/kardorim.png"
+      }
+    },
+    {
+      "mision": "Destination Astrub",
+      "zona": "Incarnam",
+      "coordenadas": "[2,-3]",
+      "pnj": {
+        "nombre": "Fécaline",
+        "img": "/images/pnj/Fecaline.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Les principes d'Archie m'aident",
+      "zona": "Astrub",
+      "coordenadas": "[6,-19]",
+      "pnj": {
+        "nombre": "Envoyée",
+        "img": "/images/pnj/Envoyee.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Ça tombe à l'eau",
+      "zona": "Astrub",
+      "coordenadas": "[4,-19]",
+      "pnj": {
+        "nombre": "Archie",
+        "img": "/images/pnj/Archie.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "On marche sur des œufs",
+      "zona": "Astrub",
+      "coordenadas": "[4,-19]",
+      "pnj": {
+        "nombre": "Archie",
+        "img": "/images/pnj/Archie.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×40",
+          "img": "/images/recursos/kamas.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Bière qui roule n'amasse pas mousse",
+      "zona": "Astrub",
+      "coordenadas": "[5,-19]",
+      "pnj": {
+        "nombre": "Badufron",
+        "img": "/images/pnj/Badufron.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×40",
+          "img": "/images/recursos/kamas.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Conseil de classe",
+      "zona": "Astrub",
+      "coordenadas": "[4,-19]",
+      "pnj": {
+        "nombre": "Archie",
+        "img": "/images/pnj/Archie.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Quête de classe",
+      "zona": "Astrub",
+      "coordenadas": null,
+      "pnj": null,
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Ça sent le gaz",
+      "zona": "Astrub",
+      "coordenadas": null,
+      "pnj": null,
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Chacha Blues",
+      "zona": "Astrub",
+      "coordenadas": "[7,-20]",
+      "pnj": {
+        "nombre": "Soki",
+        "img": "/images/pnj/Soki.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Goujon",
+          "cantidad": "×1",
+          "img": "/images/recursos/41294-128.png"
+        },
+        {
+          "nombre": "Lailait",
+          "cantidad": "×1",
+          "img": "/images/recursos/79001-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Les deux font l'impair",
+      "zona": "Astrub",
+      "coordenadas": "[4,-18]",
+      "pnj": {
+        "nombre": "Snori",
+        "img": "/images/pnj/Snori.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Déjeuner à la fourchette",
+      "zona": "Astrub",
+      "coordenadas": "[5,-22]",
+      "pnj": {
+        "nombre": "Vaiguy",
+        "img": "/images/pnj/Vaiguy.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Qui sème le vent récolte l'Artempeth",
+      "zona": "Astrub",
+      "coordenadas": "[0,-19]",
+      "pnj": {
+        "nombre": "Erty",
+        "img": "/images/pnj/Erty.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Eau Potable",
+          "cantidad": "×5",
+          "img": "/images/recursos/15026-128.png"
+        },
+        {
+          "nombre": "Pétale de Rose Démoniaque",
+          "cantidad": "×1",
+          "img": "/images/recursos/35020-128.png"
+        },
+        {
+          "nombre": "Fleur de Pissenlit Diabolique",
+          "cantidad": "×1",
+          "img": "/images/recursos/35018-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "La petite mission dans la prairie",
+      "zona": "Astrub",
+      "coordenadas": "[3,-14]",
+      "pnj": {
+        "nombre": "Mercenaire",
+        "img": "/images/pnj/Mercenaire.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Comme un pichon hors de l'eau",
+      "zona": "Astrub",
+      "coordenadas": "[11,-24]",
+      "pnj": {
+        "nombre": "Cousti",
+        "img": "/images/pnj/Cousti.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Crise sanitaire",
+      "zona": "Astrub",
+      "coordenadas": "[4,-19]",
+      "pnj": {
+        "nombre": "Amploa",
+        "img": "/images/pnj/Amploa.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Couteau de Chasse",
+          "cantidad": "×1",
+          "img": "/images/recursos/20014-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Attention à la Bête !",
+      "zona": "Astrub",
+      "coordenadas": "[2,-21]",
+      "pnj": {
+        "nombre": "ApprentiOto",
+        "img": "/images/pnj/ApprentiOto.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bière d'Astrub",
+          "cantidad": "×1",
+          "img": "/images/recursos/37004-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "L'histoire en mouvement",
+      "zona": "Astrub",
+      "coordenadas": "[7,-19]",
+      "pnj": {
+        "nombre": "Aisling",
+        "img": "/images/pnj/Aisling.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La coupe des vices",
+      "zona": "Tainéla",
+      "coordenadas": "[2,-31]",
+      "pnj": {
+        "nombre": "Baratourte",
+        "img": "/images/pnj/Baratourte.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le génie se meut",
+      "zona": "Tainéla",
+      "coordenadas": "[1,-29]",
+      "pnj": {
+        "nombre": "Mande",
+        "img": "/images/pnj/Mande.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Bûcherons en détresse",
+      "zona": "Astrub",
+      "coordenadas": "[0,-25]",
+      "pnj": {
+        "nombre": "Sêpt",
+        "img": "/images/pnj/Sept.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×100",
+          "img": "/images/recursos/kamas.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Restauration rapide",
+      "zona": "Astrub",
+      "coordenadas": "[7,-19]",
+      "pnj": {
+        "nombre": "Aisling",
+        "img": "/images/pnj/Aisling.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Balade en forêt",
+      "zona": "Astrub",
+      "coordenadas": "[7,-19]",
+      "pnj": {
+        "nombre": "RecrueM",
+        "img": "/images/pnj/RecrueM.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Six pieds sous terre",
+      "zona": "Astrub",
+      "coordenadas": "[7,-19]",
+      "pnj": {
+        "nombre": "Kaulysse",
+        "img": "/images/pnj/Kaulysse.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Tel est pris qui croyait prendre",
+      "zona": "Astrub",
+      "coordenadas": "[3,-17]",
+      "pnj": {
+        "nombre": "Kerubim",
+        "img": "/images/pnj/Kerubim.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "De vrais rats de bibliothèque",
+      "zona": "Astrub",
+      "coordenadas": "[7,-19]",
+      "pnj": {
+        "nombre": "Aisling",
+        "img": "/images/pnj/Aisling.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Livraison par intérim",
+      "zona": "Astrub",
+      "coordenadas": "[4,-19]",
+      "pnj": {
+        "nombre": "Amploa",
+        "img": "/images/pnj/Amploa.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Golémancien",
+      "zona": "Astrub",
+      "coordenadas": "[4,-19]",
+      "pnj": {
+        "nombre": "Amploa",
+        "img": "/images/pnj/Amploa.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Planche Contreplaquée",
+          "cantidad": "×1",
+          "img": "/images/recursos/95001-128.png"
+        },
+        {
+          "nombre": "Cuir de Scélérat Strubien",
+          "cantidad": "×1",
+          "img": "/images/recursos/25157-128.png"
+        },
+        {
+          "nombre": "Serviette de Plage",
+          "cantidad": "×1",
+          "img": "/images/recursos/55130-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Les as de la cambriole",
+      "zona": "Astrub",
+      "coordenadas": "[5,-17]",
+      "pnj": {
+        "nombre": "Cindy",
+        "img": "/images/pnj/Cindy.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Baguette Rikiki",
+          "cantidad": "×1",
+          "img": "/images/recursos/3086-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Combat de rue",
+      "zona": "Astrub",
+      "coordenadas": "[5,-19]",
+      "pnj": {
+        "nombre": "Badufron",
+        "img": "/images/pnj/Badufron.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le rebelle de la forêt",
+      "zona": "Astrub",
+      "coordenadas": "[4,-19]",
+      "pnj": {
+        "nombre": "Amploa",
+        "img": "/images/pnj/Amploa.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Légende d'automne",
+      "zona": "Astrub",
+      "coordenadas": "[7,-19]",
+      "pnj": {
+        "nombre": "Prim",
+        "img": "/images/pnj/Prim.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "L'invasion des profanateurs de sépulture",
+      "zona": "Astrub",
+      "coordenadas": "[-1,-13]",
+      "pnj": {
+        "nombre": "Becky",
+        "img": "/images/pnj/Becky.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le repos est dans le champ",
+      "zona": "Astrub",
+      "coordenadas": "[2,-14]",
+      "pnj": {
+        "nombre": "Nistracolamus",
+        "img": "/images/pnj/Nistracolamus.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Trèfle à 5 feuilles",
+          "cantidad": "×3",
+          "img": "/images/recursos/36067-128.png"
+        },
+        {
+          "nombre": "Ortie",
+          "cantidad": "×3",
+          "img": "/images/recursos/36642-128.png"
+        },
+        {
+          "nombre": "Sauge",
+          "cantidad": "×3",
+          "img": "/images/recursos/36643-128.png"
+        }
+      ],
+      "donjon": null
+    }
+  ]
+}

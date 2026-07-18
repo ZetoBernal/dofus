@@ -1,0 +1,484 @@
+{
+  "icono": "/images/guides/dofus-forgelave-icon.png",
+  "banner": "/images/guides/dofus-forgelave-banner.jpg",
+  "misiones": [
+    {
+      "mision": "Mieux vaut ne pas se fier à la première impression",
+      "zona": "Astrub",
+      "coordenadas": "[7,-19]",
+      "pnj": {
+        "nombre": "Prim",
+        "img": "/images/pnj/Prim.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×100",
+          "img": "/images/recursos/kamas.png"
+        },
+        {
+          "nombre": "Laine de Bouftou",
+          "cantidad": "×5",
+          "img": "/images/recursos/57056-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Aventure miniature",
+      "zona": "Cache de Kankreblath",
+      "coordenadas": "[3,-17]",
+      "pnj": {
+        "nombre": "Croquette",
+        "img": "/images/pnj/Croquette.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Baguette Rikiki",
+          "cantidad": "×1",
+          "img": "/images/recursos/3086-128.png"
+        }
+      ],
+      "donjon": {
+        "nombre": "Cache De Kankreblath",
+        "link": "https://duffus.fr/donjon/cache-de-kankreblath",
+        "img": "/images/donjones/kankreblath.png"
+      }
+    },
+    {
+      "mision": "Ne tirez pas sur le messager",
+      "zona": "Temple Ouginak",
+      "coordenadas": "[8,-67]",
+      "pnj": {
+        "nombre": "Chalcas",
+        "img": "/images/pnj/Chalcas.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "À la rescousse des magypus",
+      "zona": "Nimotopia",
+      "coordenadas": "[-63,29]",
+      "pnj": {
+        "nombre": "Coqueline",
+        "img": "/images/pnj/Coqueline.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×10001",
+          "img": "/images/recursos/kamas.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Dernier contact",
+      "zona": "Temple Ouginak",
+      "coordenadas": "[8,-67]",
+      "pnj": {
+        "nombre": "Chalcas",
+        "img": "/images/pnj/Chalcas.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La voix des morts",
+      "zona": "Temple Ouginak",
+      "coordenadas": "[8,-67]",
+      "pnj": {
+        "nombre": "Chalcas",
+        "img": "/images/pnj/Chalcas.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×2000",
+          "img": "/images/recursos/kamas.png"
+        },
+        {
+          "nombre": "Eau Potable",
+          "cantidad": "×1",
+          "img": "/images/recursos/15026-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Le fléau de Burin",
+      "zona": "Terres Désacrées",
+      "coordenadas": "[-12,22]",
+      "pnj": {
+        "nombre": "Nosya",
+        "img": "/images/pnj/Nosya.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le gang des Toxines",
+      "zona": "Temple Ouginak",
+      "coordenadas": "[8,-67]",
+      "pnj": {
+        "nombre": "Chalcas",
+        "img": "/images/pnj/Chalcas.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Sombres desseins",
+      "zona": "Srambad",
+      "coordenadas": "[5,2]",
+      "pnj": {
+        "nombre": "Incognita",
+        "img": "/images/pnj/Incognita.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Trèfle à 5 feuilles",
+          "cantidad": "×50",
+          "img": "/images/recursos/36067-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "La colère des dieux",
+      "zona": "Temple de classe",
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "base",
+        "img": "/images/pnj/base.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le jour des assassins",
+      "zona": "Temple Ouginak",
+      "coordenadas": "[8,-67]",
+      "pnj": {
+        "nombre": "Chalcas",
+        "img": "/images/pnj/Chalcas.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Le piège se referme",
+      "zona": "Temple Ouginak",
+      "coordenadas": "[8,-67]",
+      "pnj": {
+        "nombre": "Chalcas",
+        "img": "/images/pnj/Chalcas.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Les cœurs livides",
+      "zona": "Domaine des dieux",
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "Douze",
+        "img": "/images/pnj/Douze.png"
+      },
+      "recursos": [],
+      "donjon": {
+        "nombre": "Tour De Bethel",
+        "link": "https://duffus.fr/donjon/tour-de-bethel",
+        "img": "/images/donjones/bethel.png"
+      }
+    },
+    {
+      "mision": "L'arme fatale",
+      "zona": "Domaine des dieux",
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "Gobanos",
+        "img": "/images/pnj/Gobanos.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Écume de mer",
+          "cantidad": "×5",
+          "img": "/images/recursos/39399-128.png"
+        },
+        {
+          "nombre": "Salikrone",
+          "cantidad": "×5",
+          "img": "/images/recursos/36653-128.png"
+        },
+        {
+          "nombre": "Patelle",
+          "cantidad": "×5",
+          "img": "/images/recursos/41419-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Cœur de pierre",
+      "zona": "Domaine des dieux",
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "PreFéca",
+        "img": "/images/pnj/PreFeca.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Kamas",
+          "cantidad": "×4",
+          "img": "/images/recursos/kamas.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Plantes contre Trépamorts",
+      "zona": "Marches Magmatiques",
+      "coordenadas": "[-27,24]",
+      "pnj": {
+        "nombre": "Lindien",
+        "img": "/images/pnj/Lindien.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Cristal",
+          "cantidad": "×4",
+          "img": "/images/recursos/50098-128.png"
+        },
+        {
+          "nombre": "Diamant",
+          "cantidad": "×1",
+          "img": "/images/recursos/50025-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Le héros de Plantes contre Trépamorts",
+      "zona": "Marches Magmatiques",
+      "coordenadas": "[-27,24]",
+      "pnj": {
+        "nombre": "Lindien",
+        "img": "/images/pnj/Lindien.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Les pierres à feu",
+      "zona": "Marches Magmatiques",
+      "coordenadas": "[-31,23]",
+      "pnj": {
+        "nombre": "Claude",
+        "img": "/images/pnj/Claude.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Du feu de dieu",
+      "zona": "Désolation de Sidimote",
+      "coordenadas": "[-21,25]",
+      "pnj": {
+        "nombre": "Rodak",
+        "img": "/images/pnj/Rodak.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Saucisse Fumée",
+          "cantidad": "×4",
+          "img": "/images/recursos/69820-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Battre le fer tant qu'il est chaud",
+      "zona": "Désolation de Sidimote",
+      "coordenadas": "[-26,23]",
+      "pnj": {
+        "nombre": "Berklé",
+        "img": "/images/pnj/Berkle.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bière du Chabrûlé",
+          "cantidad": "×10",
+          "img": "/images/recursos/37004-128.png"
+        },
+        {
+          "nombre": "Saucisse Fumée",
+          "cantidad": "×2",
+          "img": "/images/recursos/69820-128.png"
+        },
+        {
+          "nombre": "Poisskaille en Fricassée",
+          "cantidad": "×2",
+          "img": "/images/recursos/49136-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "La guerre des Marches",
+      "zona": "Domaine des dieux",
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "PretresseOuginak",
+        "img": "/images/pnj/PretresseOuginak.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Corde d'escalade",
+          "cantidad": "×1",
+          "img": "/images/recursos/15170-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Craquements de cœur",
+      "zona": "Domaine des dieux",
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "PrêtreIop",
+        "img": "/images/pnj/PretreIop.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "La quête sous l'eau",
+      "zona": "Domaine des dieux",
+      "coordenadas": null,
+      "pnj": {
+        "nombre": "PretreSram",
+        "img": "/images/pnj/PretreSram.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Algue au rythme",
+      "zona": "La Bourgade",
+      "coordenadas": "[-80,-45]",
+      "pnj": {
+        "nombre": "Paisse",
+        "img": "/images/pnj/Paisse.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Potion Torboyo",
+          "cantidad": "×5",
+          "img": "/images/recursos/12720-128.png"
+        },
+        {
+          "nombre": "Salikrone",
+          "cantidad": "×3",
+          "img": "/images/recursos/36653-128.png"
+        },
+        {
+          "nombre": "Quisnoa",
+          "cantidad": "×3",
+          "img": "/images/recursos/34560-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Au-delà de la Côte",
+      "zona": "La Bourgade",
+      "coordenadas": "[-77,-42]",
+      "pnj": {
+        "nombre": "Sroness",
+        "img": "/images/pnj/Sroness.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Eau calme",
+          "cantidad": "×20",
+          "img": "/images/recursos/15778-128.png"
+        },
+        {
+          "nombre": "Ardonite",
+          "cantidad": "×3",
+          "img": "/images/recursos/40710-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "La croisière, ça m'use",
+      "zona": "La Bourgade",
+      "coordenadas": "[-77,-42]",
+      "pnj": {
+        "nombre": "Sroness",
+        "img": "/images/pnj/Sroness.png"
+      },
+      "recursos": [],
+      "donjon": null
+    },
+    {
+      "mision": "Toucher le fond",
+      "zona": "Bateau vers Épaves Silencieuses",
+      "coordenadas": "[-48,-78]",
+      "pnj": {
+        "nombre": "livre1",
+        "img": "/images/pnj/livre1.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bois de Chêne",
+          "cantidad": "×70",
+          "img": "/images/recursos/38092-128.png"
+        },
+        {
+          "nombre": "Belladone",
+          "cantidad": "×45",
+          "img": "/images/recursos/35638-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "La mort de ma vie",
+      "zona": "Épaves Silencieuses",
+      "coordenadas": "[-45,-80]",
+      "pnj": {
+        "nombre": "Talmon",
+        "img": "/images/pnj/Talmon.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Bois d'Aquajou",
+          "cantidad": "×3",
+          "img": "/images/recursos/38684-128.png"
+        }
+      ],
+      "donjon": null
+    },
+    {
+      "mision": "Krobe en bourg",
+      "zona": "Épaves Silencieuses",
+      "coordenadas": "[-47,-82]",
+      "pnj": {
+        "nombre": "Pekno",
+        "img": "/images/pnj/Pekno.png"
+      },
+      "recursos": [
+        {
+          "nombre": "Pain de Frostiz",
+          "cantidad": "×1",
+          "img": "/images/recursos/33072-128.png"
+        }
+      ],
+      "donjon": null
+    }
+  ]
+}
