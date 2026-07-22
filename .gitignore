@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/src/generated/prisma
+
+# imágenes subidas desde /admin — contenido en runtime, no del pipeline de
+# scraping. En producción necesita un volumen persistente montado acá.
+/public/uploads

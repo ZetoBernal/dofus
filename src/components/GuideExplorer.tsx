@@ -76,7 +76,7 @@ export function GuideExplorer({
   }, [query, dofusGuides, otras]);
 
   return (
-    <div>
+    <div className="@container">
       <input
         type="search"
         value={query}
@@ -92,7 +92,7 @@ export function GuideExplorer({
             Ninguna guía coincide con &quot;{query}&quot;.
           </p>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 @[420px]:grid-cols-3 @[640px]:grid-cols-4 gap-3">
             {results.map((g) => (
               <GuideCard key={g.slug} guide={g} />
             ))}
@@ -103,7 +103,7 @@ export function GuideExplorer({
           <h2 className="text-sm font-semibold uppercase tracking-wide text-zinc-400 mb-4">
             Guía por Dofus
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-10">
+          <div className="grid grid-cols-2 @[420px]:grid-cols-3 @[640px]:grid-cols-4 gap-3 mb-10">
             {dofusGuides.map((g) => (
               <GuideCard key={g.slug} guide={g} />
             ))}
@@ -112,7 +112,7 @@ export function GuideExplorer({
           <h2 className="text-sm font-semibold uppercase tracking-wide text-zinc-400 mb-4">
             Otras guías
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 @[420px]:grid-cols-3 @[640px]:grid-cols-4 gap-3">
             {otras.map((g) => (
               <GuideCard key={g.slug} guide={g} />
             ))}

@@ -6,6 +6,7 @@ import { loadProgress, saveProgress } from "@/lib/progress";
 import { normalize } from "@/lib/normalize";
 import { TravelChip } from "./TravelChip";
 import { AdSlot } from "./AdSlot";
+import { OverlayButton } from "./OverlayButton";
 
 interface ZoneGroup {
   zona: string;
@@ -130,14 +131,17 @@ function ZoneSection({
   completed,
   onToggle,
   onCheckAll,
+  onUncheckAll,
 }: {
   group: ZoneGroup;
   completed: Set<string>;
   onToggle: (mision: string) => void;
   onCheckAll: (misiones: string[]) => void;
+  onUncheckAll: (misiones: string[]) => void;
 }) {
   const groupDone = group.quests.filter((q) => completed.has(q.mision)).length;
   const allDone = groupDone === group.quests.length;
+  const misiones = group.quests.map((q) => q.mision);
 
   return (
     <div>
@@ -149,15 +153,13 @@ function ZoneSection({
         <span className="text-xs text-zinc-300 dark:text-zinc-700">
           {groupDone}/{group.quests.length}
         </span>
-        {!allDone && (
-          <button
-            type="button"
-            onClick={() => onCheckAll(group.quests.map((q) => q.mision))}
-            className="ml-auto text-[11px] text-zinc-400 hover:text-amber-600 dark:hover:text-amber-500 transition-colors cursor-pointer"
-          >
-            Marcar todas
-          </button>
-        )}
+        <button
+          type="button"
+          onClick={() => (allDone ? onUncheckAll(misiones) : onCheckAll(misiones))}
+          className="ml-auto text-[11px] text-zinc-400 hover:text-amber-600 dark:hover:text-amber-500 transition-colors cursor-pointer"
+        >
+          {allDone ? "Desmarcar todas" : "Marcar todas"}
+        </button>
       </div>
       <ol className="relative ml-2.5 flex flex-col gap-2.5 border-l border-zinc-200 pl-6 dark:border-zinc-800">
         {group.quests.map((q) => (
@@ -175,10 +177,12 @@ function ZoneSection({
 
 export function QuestChecklist({
   slug,
+  guideName,
   quests,
   rangos,
 }: {
   slug: string;
+  guideName: string;
   quests: Quest[];
   rangos?: string[];
 }) {
@@ -207,6 +211,15 @@ export function QuestChecklist({
     setCompleted((prev) => {
       const next = new Set(prev);
       misiones.forEach((m) => next.add(m));
+      saveProgress(slug, next);
+      return next;
+    });
+  }
+
+  function uncheckAll(misiones: string[]) {
+    setCompleted((prev) => {
+      const next = new Set(prev);
+      misiones.forEach((m) => next.delete(m));
       saveProgress(slug, next);
       return next;
     });
@@ -253,15 +266,26 @@ export function QuestChecklist({
             />
           </div>
         </div>
-        {done > 0 && (
-          <button
-            type="button"
-            onClick={reset}
-            className="shrink-0 text-xs text-zinc-400 hover:text-red-500 transition-colors cursor-pointer self-start sm:self-auto"
-          >
-            Reiniciar progreso
-          </button>
-        )}
+        <div className="flex items-center gap-3 shrink-0 self-start sm:self-auto">
+          <OverlayButton
+            guideName={guideName}
+            quests={questsEnRango}
+            completed={completed}
+            onToggle={toggle}
+            rangos={rangos}
+            rango={rango}
+            onRangoChange={setRango}
+          />
+          {done > 0 && (
+            <button
+              type="button"
+              onClick={reset}
+              className="text-xs text-zinc-400 hover:text-red-500 transition-colors cursor-pointer"
+            >
+              Reiniciar progreso
+            </button>
+          )}
+        </div>
       </div>
 
       <input
@@ -274,7 +298,7 @@ export function QuestChecklist({
       />
 
       {!filtered && rangos && rangos.length > 1 && (
-        <div className="mb-6 -mx-1 flex gap-1.5 overflow-x-auto px-1 pb-1">
+        <div className="mb-6 -mx-1 flex gap-1.5 overflow-x-auto px-1 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {rangos.map((r) => {
             const rangoQuests = quests.filter((q) => q.rango === r);
             const rangoDone = rangoQuests.filter((q) => completed.has(q.mision)).length;
@@ -325,6 +349,7 @@ export function QuestChecklist({
               completed={completed}
               onToggle={toggle}
               onCheckAll={checkAll}
+              onUncheckAll={uncheckAll}
             />
           ))}
           {!rangos && groups.length > 12 && (

@@ -32,13 +32,13 @@ beforeEach(() => {
 
 describe("QuestChecklist", () => {
   it("starts with nothing checked and shows the total", () => {
-    render(<QuestChecklist slug="test-guide" quests={quests} />);
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
     expect(screen.getByText("0 / 2 completadas")).toBeInTheDocument();
   });
 
   it("checking a mission updates the progress count and persists it", async () => {
     const user = userEvent.setup();
-    render(<QuestChecklist slug="test-guide" quests={quests} />);
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
 
     await user.click(screen.getByRole("checkbox", { name: /mort au rat/i }));
 
@@ -48,7 +48,7 @@ describe("QuestChecklist", () => {
 
   it("filters missions by the search box", async () => {
     const user = userEvent.setup();
-    render(<QuestChecklist slug="test-guide" quests={quests} />);
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
 
     await user.type(screen.getByLabelText(/buscar misión/i), "ciel");
 
@@ -57,7 +57,7 @@ describe("QuestChecklist", () => {
   });
 
   it("groups missions by zone with a header per zone", () => {
-    render(<QuestChecklist slug="test-guide" quests={quests} />);
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
 
     expect(screen.getByRole("heading", { name: "Incarnam" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Astrub" })).toBeInTheDocument();
@@ -65,7 +65,7 @@ describe("QuestChecklist", () => {
 
   it("reset button clears progress", async () => {
     const user = userEvent.setup();
-    render(<QuestChecklist slug="test-guide" quests={quests} />);
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
 
     await user.click(screen.getByRole("checkbox", { name: /mort au rat/i }));
     await user.click(screen.getByRole("button", { name: /reiniciar progreso/i }));
@@ -75,7 +75,7 @@ describe("QuestChecklist", () => {
   });
 
   it("shows a dungeon badge linking out for missions that have one", () => {
-    render(<QuestChecklist slug="test-guide" quests={quests} />);
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
 
     const link = screen.getByRole("link", { name: /crypte de kardorim/i });
     expect(link).toHaveAttribute("href", "https://example.com/donjon");
@@ -83,7 +83,7 @@ describe("QuestChecklist", () => {
 
   it("'Marcar todas' checks every mission in that zone", async () => {
     const user = userEvent.setup();
-    render(<QuestChecklist slug="test-guide" quests={quests} />);
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
 
     // Una zona por misión en este fixture: el primer botón es el de Incarnam.
     await user.click(screen.getAllByRole("button", { name: /marcar todas/i })[0]);
@@ -92,13 +92,26 @@ describe("QuestChecklist", () => {
     expect(loadProgress("test-guide")).toEqual(new Set(["Mort au rat !"]));
   });
 
+  it("turns into 'Desmarcar todas' once the zone is complete, and undoes it", async () => {
+    const user = userEvent.setup();
+    render(<QuestChecklist slug="test-guide" guideName="Test Guide" quests={quests} />);
+
+    await user.click(screen.getAllByRole("button", { name: /marcar todas/i })[0]);
+    expect(loadProgress("test-guide")).toEqual(new Set(["Mort au rat !"]));
+
+    await user.click(screen.getByRole("button", { name: /desmarcar todas/i }));
+
+    expect(screen.getByText("0 / 2 completadas")).toBeInTheDocument();
+    expect(loadProgress("test-guide")).toEqual(new Set());
+  });
+
   it("shows level-range tabs and filters missions by the selected range", async () => {
     const rangedQuests: Quest[] = [
       { ...quests[0], rango: "1-20" },
       { ...quests[1], rango: "20-40" },
     ];
     const user = userEvent.setup();
-    render(<QuestChecklist slug="guide-complet" quests={rangedQuests} rangos={["1-20", "20-40"]} />);
+    render(<QuestChecklist slug="guide-complet" guideName="Guia Completa" quests={rangedQuests} rangos={["1-20", "20-40"]} />);
 
     expect(screen.getByText("Mort au rat !")).toBeInTheDocument();
     expect(screen.queryByText("Vu du ciel")).not.toBeInTheDocument();

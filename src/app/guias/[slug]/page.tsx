@@ -79,10 +79,10 @@ export default async function GuidePage({ params }: Props) {
 
       <div className="max-w-6xl mx-auto px-6 py-10 flex gap-10">
         <div className="flex-1 min-w-0 max-w-2xl">
-          <QuestChecklist slug={slug} quests={misiones} rangos={rangos} />
+          <QuestChecklist slug={slug} guideName={guide.nombre} quests={misiones} rangos={rangos} />
         </div>
 
-        <aside className="hidden lg:block w-64 shrink-0 space-y-6">
+        <aside className="hidden xl:block w-64 shrink-0 space-y-6">
           <div className="sticky top-20 space-y-6">
             <AdSlot variant="rectangle" />
             <AdSlot variant="rectangle" />
