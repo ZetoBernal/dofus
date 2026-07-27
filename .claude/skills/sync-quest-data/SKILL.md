@@ -1,14 +1,15 @@
 ---
 name: sync-quest-data
-description: Re-scrapea las guías de duffus.fr y sus links en dofuspourlesnoobs.com, refresca src/data/quests y verifica que la app siga sana. Usar cuando duffus.fr agregue/actualice una guía, cuando los datos de misiones se vean desactualizados, o cuando el usuario pida "actualizar las misiones" / "resincronizar datos".
+description: Re-scrapea las guías de duffus.fr y sus links en dofuspourlesnoobs.com, refresca front/src/data/quests y verifica que la app siga sana. Usar cuando duffus.fr agregue/actualice una guía, cuando los datos de misiones se vean desactualizados, o cuando el usuario pida "actualizar las misiones" / "resincronizar datos".
 ---
 
 # Sync quest data
 
-El sitio (`dofus-web`, Next.js en la raíz del repo) lee las misiones desde
-JSON estático en `src/data/quests/`. Ese JSON no se genera en runtime: viene
-de un pipeline de scraping en `scraper-duffus/` que hay que correr a mano y
-copiar. Este skill automatiza ese pipeline completo.
+El sitio (`dofus-web`, Next.js en `front/`) lee las misiones desde JSON
+estático en `front/src/data/quests/`. Ese JSON no se genera en runtime: viene
+de un pipeline de scraping en `scraper-duffus/` (independiente de front/ y
+back/, en la raíz del repo) que hay que correr a mano y copiar. Este skill
+automatiza ese pipeline completo.
 
 ## Cuándo NO usar esto
 
@@ -63,20 +64,21 @@ misiones.
    respecto a antes (referencia: ~11 de 1136), algo cambió en el sitio
    destino y vale la pena avisar al usuario en vez de asumir que está bien.
 
-5. Copiar el resultado a la app: el JSON a `src/data/quests/`, las imágenes
-   nuevas a `public/images/` (sin pisar lo que ya está, `cp -n`):
+5. Copiar el resultado a la app: el JSON a `front/src/data/quests/`, las
+   imágenes nuevas a `front/public/images/` (sin pisar lo que ya está, `cp -n`):
 
    ```bash
    cd ..
-   cp scraper-duffus/output/with_links/*.json src/data/quests/
-   rm src/data/quests/all_quests_links.json src/data/quests/_no_encontrados.json
-   mkdir -p public/images
-   cp -rn scraper-duffus/output/images/* public/images/
+   cp scraper-duffus/output/with_links/*.json front/src/data/quests/
+   rm front/src/data/quests/all_quests_links.json front/src/data/quests/_no_encontrados.json
+   mkdir -p front/public/images
+   cp -rn scraper-duffus/output/images/* front/public/images/
    ```
 
-6. Verificar que todo siga andando antes de dar por terminado:
+6. Verificar que todo siga andando antes de dar por terminado (desde `front/`):
 
    ```bash
+   cd front
    npm run build
    npm run test
    ```
@@ -86,13 +88,14 @@ misiones.
    acá antes de llegar a producción.
 
 7. Contarle al usuario un resumen corto: cuántas misiones cambiaron por guía
-   (comparando conteos antes/después, `git diff --stat src/data/quests/`
+   (comparando conteos antes/después, `git diff --stat front/src/data/quests/`
    sirve para esto), y si hubo guías nuevas o eliminadas en duffus.fr que
-   requieran actualizar `GUIDES` en `src/lib/guides.ts`.
+   requieran actualizar `GUIDES` en `front/src/lib/guides.ts`.
 
 ## Si duffus.fr agregó o quitó una guía
 
 El scraper tiene hardcodeada la lista de slugs (`DOFUS_SLUGS` en
-`scraper-duffus/scraper.py`) y `src/lib/guides.ts` tiene su propio `GUIDES`
-con nombre/nivel para cada una. Si `/guides` en duffus.fr muestra una guía
-nueva, hay que agregar el slug en ambos lugares a mano — no se infiere solo.
+`scraper-duffus/scraper.py`) y `front/src/lib/guides.ts` tiene su propio
+`GUIDES` con nombre/nivel para cada una. Si `/guides` en duffus.fr muestra
+una guía nueva, hay que agregar el slug en ambos lugares a mano — no se
+infiere solo.

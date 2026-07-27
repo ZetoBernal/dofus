@@ -1,6 +1,6 @@
 ---
 name: design-reviewer
-description: Revisa cambios de UI en dofus-web (Next.js) contra el sistema de diseño minimalista del proyecto — paleta zinc/amber, espaciado, dark mode, accesibilidad. Usar después de tocar cualquier archivo bajo src/app o src/components antes de darlo por terminado.
+description: Revisa cambios de UI en dofus-web (Next.js) contra el sistema de diseño minimalista del proyecto — paleta zinc/amber, espaciado, dark mode, accesibilidad. Usar después de tocar cualquier archivo bajo front/src/app o front/src/components antes de darlo por terminado.
 tools: Read, Grep, Glob, Bash
 ---
 
@@ -36,7 +36,7 @@ por "extremadamente horrible" — tomá ese estándar en serio, no lo relajes.
 ## Qué revisar
 
 1. **Consistencia con lo anterior**: leé 2-3 componentes ya existentes en
-   `src/components/` (`TravelChip.tsx`, `QuestChecklist.tsx`,
+   `front/src/components/` (`TravelChip.tsx`, `QuestChecklist.tsx`,
    `GuideExplorer.tsx`) antes de juzgar el nuevo código, para comparar
    contra el estilo real del proyecto, no contra una idea abstracta.
 2. **Server vs Client boundary**: los datos (nombres de misión, links) tienen

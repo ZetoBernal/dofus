@@ -1,0 +1,35 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Contenido editado a mano desde /admin para una misión, keyed por el
+// nombre francés de la misión (`Quest.mision` en front/src/lib/guides.ts),
+// que es estable y global entre guías (la misma misión suele aparecer tanto
+// en su guía de Dofus como en guide-complet).
+model MissionOverride {
+  id        String   @id @default(cuid())
+  mision    String   @unique
+  nombreEs  String?
+  pasos     Step[]
+  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now())
+}
+
+model Step {
+  id         String          @id @default(cuid())
+  orden      Int
+  texto      String
+  imagen     String?
+  override   MissionOverride @relation(fields: [overrideId], references: [id], onDelete: Cascade)
+  overrideId String
+
+  @@index([overrideId])
+}
